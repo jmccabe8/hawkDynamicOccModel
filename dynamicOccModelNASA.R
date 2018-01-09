@@ -125,9 +125,9 @@ zst <- ysum
 inits <- function(){ list( z = zst ) }
 
 #parameters monitored
-params <- c( "psi", "p","n_occ","meanPhi", "meanGam", "sigma1", "sigma2", "sigma3", "sigma4",
-             , "beta0.gam", "aplah0.phi", "beta1.gam", "alpha.phi", "beta2.gam", "alpha2.phi",
-             , "beta3.gam", "alpha3.phi", "beta4.gam", "alpha4.phi", "beta5.gam", "alpha5.phi",
+params <- c( "psi", "p","n_occ","meanPhi", "meanGam", "sigma1", "sigma2", "sigma3", "sigma4"
+             , "beta0.gam", "aplah0.phi", "beta1.gam", "alpha.phi", "beta2.gam", "alpha2.phi"
+             , "beta3.gam", "alpha3.phi", "beta4.gam", "alpha4.phi", "beta5.gam", "alpha5.phi"
              , "beta6.gam", "alpha6.phi", "beta7.gam", "alpha7.phi", "tau0.p", "tau1.p"
              
 )
