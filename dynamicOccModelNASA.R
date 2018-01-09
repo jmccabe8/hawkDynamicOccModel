@@ -133,5 +133,5 @@ params <- c( "psi", "p","n_occ","meanPhi", "meanGam", "sigma1", "sigma2", "sigma
 )
 
 fm <- jags( win.data, inits, params, modelname, n.chains = nc,
-             n.thin = nt, n.iter = ni, n.burnin = nb, n.adapt=nb, parallel=TRUE ) # mean p coeff is alpha0.p (sites/means/seasons)
+             n.thin = nt, n.iter = ni, n.burnin = nb, n.adapt=nb, parallel=TRUE ) 
 
