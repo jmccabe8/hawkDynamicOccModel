@@ -113,7 +113,7 @@ sink()
 modelname <- "dynOcc.txt"
 str( win.data <- list( y_obs = y_obs, M = M, J = J, K = K
                        , eff_mat = eff_mat
-                       , minTobs=minTobs
+                       , minTobs = minTobs
                        , imperv = imperv
                        , tree = tree
                        , minT = minT
